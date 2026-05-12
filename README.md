@@ -87,3 +87,9 @@ Key visuals:
 - Data modeling
 - Agile delivery metrics
 - PMO reporting logic
+
+This dashboard demonstrates how Agile delivery data can be transformed into an executive-ready monitoring system focused on predictability, stability, delivery risk, and team maturity.
+It supports better conversations around planning discipline, sprint health, and delivery governance.
+
+Created by Bruno Fierro – Senior PMO & Project Manager
+More projects on my GitHub | Project management & PMO insights on my blog
