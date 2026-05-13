@@ -70,7 +70,7 @@ Key visuals:
 - Health Score Evolution
 - Sprint Health Matrix
 
-![Agile Delivery Health](images/01_agile_delivery_health.png)
+<img width="1333" height="792" alt="image" src="https://github.com/user-attachments/assets/8dd5ea2b-500d-4c2f-a127-adef52cd9861" />
 
 ---
 
@@ -85,7 +85,8 @@ Key visuals:
 - Team Delivery Maturity Map
 - Predictability Detail by Sprint and Team
 
-![Predictability vs Stability](images/02_predictability_vs_stability.png)
+<img width="1407" height="790" alt="image" src="https://github.com/user-attachments/assets/b3e0d453-988c-444e-952e-9e77311fa013" />
+
 
 ---
 
@@ -102,7 +103,8 @@ Key visuals:
 - Velocity and Predictability Trend
 - Committed vs Completed Story Points
 
-![Sprint Delivery Performance](images/03_sprint_delivery_performance.png)
+<img width="1407" height="794" alt="image" src="https://github.com/user-attachments/assets/7aff4f23-b8c1-425d-876a-76505423c92f" />
+
 
 ---
 
@@ -143,7 +145,7 @@ Key visuals:
 - Team C follows a gradual transformation pattern, improving over time but with lower consistency than Team A.
 - Overall sprint predictability reaches 88%, with an 11.9% delivery gap.
 - Velocity and predictability improve progressively, suggesting better planning discipline and delivery maturity.
-- The health scoring model is intentionally strict, combining predictability and pending work ratio to highlight delivery risk.
+**- The health scoring model is intentionally strict, combining predictability and pending work ratio to highlight delivery risk.**
 
 ---
 
@@ -166,5 +168,8 @@ SUMX(
     ),
     [CommittedSP]
 )
-
+_______________________________________________________________________________________________
+I welcome suggestions, improvements, and collaborations. Feel free to open issues or send PRs.
+Let’s turn data into decisions together.
+_______________________________________________________________________________________________
 Created by Bruno Fierro – Senior PMO & Project Manager | More projects on my GitHub | Project management & PMO insights on my website.
