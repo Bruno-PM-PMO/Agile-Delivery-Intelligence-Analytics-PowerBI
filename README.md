@@ -173,12 +173,12 @@ SUMX(
 This ensures that sprint-level metrics are calculated correctly despite the daily burndown granularity.
 
 ## Tools Used
-Power BI
-Power Query
-DAX
-Data modeling
-Agile delivery analytics
-PMO reporting logic
+- Power BI
+- Power Query
+- DAX
+- Data modeling
+- Agile delivery analytics
+- PMO reporting logic
 
 ## Limitations
 
@@ -192,11 +192,11 @@ This dashboard demonstrates how Agile delivery data can be transformed into an e
 
 It supports better conversations around:
 
-Sprint planning discipline
-Delivery governance
-Team maturity
-Operational risk
-PMO reporting
+- Sprint planning discipline
+- Delivery governance
+- Team maturity
+- Operational risk
+- PMO reporting
 _______________________________________________________________________________________________
 I welcome suggestions, improvements, and collaborations. Feel free to open issues or send PRs.
 Let’s turn data into decisions together.
