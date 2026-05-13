@@ -145,6 +145,7 @@ Key visuals:
 - Team C follows a gradual transformation pattern, improving over time but with lower consistency than Team A.
 - Overall sprint predictability reaches 88%, with an 11.9% delivery gap.
 - Velocity and predictability improve progressively, suggesting better planning discipline and delivery maturity.
+  
 **- The health scoring model is intentionally strict, combining predictability and pending work ratio to highlight delivery risk.**
 
 ---
@@ -168,6 +169,7 @@ SUMX(
     ),
     [CommittedSP]
 )
+
 _______________________________________________________________________________________________
 I welcome suggestions, improvements, and collaborations. Feel free to open issues or send PRs.
 Let’s turn data into decisions together.
