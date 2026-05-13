@@ -1,4 +1,4 @@
-# Agile Delivery Health Analytics | Power BI
+# Agile Delivery Intelligence Analytics | Power BI
 
 Power BI Agile Delivery Intelligence dashboard designed to monitor sprint predictability, velocity stability, delivery health and team performance across a simulated multi-team Agile environment.
 
