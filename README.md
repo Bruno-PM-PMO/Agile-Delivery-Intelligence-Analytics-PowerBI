@@ -169,29 +169,24 @@ SUMX(
     ),
     [CommittedSP]
 )
-
+```
 This ensures that sprint-level metrics are calculated correctly despite the daily burndown granularity.
 
-Tools Used
+## Tools Used
 Power BI
 Power Query
 DAX
 Data modeling
 Agile delivery analytics
 PMO reporting logic
-Files
-File / Folder	Description
-Agile_Delivery_Health_Analytics.pbix	Power BI report
-data/Agile_Sprint_Tracker_Dataset.csv	Simulated Agile sprint dataset
-images/	Dashboard screenshots
-docs/dax_measures.md	Main DAX measures used in the report
-Limitations
+
+## Limitations
 
 This version focuses on sprint-level delivery analytics.
 
 Ticket-level flow metrics such as Cycle Time, Lead Time and WIP were intentionally excluded because they require issue-level transactional data with created, started and completed timestamps.
 
-Impact
+## Impact
 
 This dashboard demonstrates how Agile delivery data can be transformed into an executive-ready monitoring system focused on predictability, stability, delivery risk and team maturity.
 
