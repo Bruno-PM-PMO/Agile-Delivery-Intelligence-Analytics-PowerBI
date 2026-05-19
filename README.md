@@ -138,7 +138,17 @@ Key visuals:
 
 <img width="1407" height="790" alt="image" src="https://github.com/user-attachments/assets/b3e0d453-988c-444e-952e-9e77311fa013" />
 
+## Sprint Predictability %
+Sprint Predictability measures how closely the team delivered against its committed story points.
 
+```DAX
+Sprint Predictability % =
+DIVIDE(
+    [Completed Story Points],
+    [Committed Story Points],
+    0
+)
+```
 ---
 
 ### 3. Sprint Delivery Performance
