@@ -108,15 +108,18 @@ SWITCH(
 ```
 
 ## Score interpretation
-Score	Status	Interpretation
-3	Healthy	Strong delivery performance, high predictability and controlled pending work
-2	Warning	Acceptable delivery performance, but with planning or execution risk
-1	Critical	Low predictability and/or excessive pending work requiring attention
+| Score | Status   | Interpretation                                                               |
+| ----- | -------- | ---------------------------------------------------------------------------- |
+| 3     | Healthy  | Strong delivery performance, high predictability and controlled pending work |
+| 2     | Warning  | Acceptable delivery performance, but with planning or execution risk         |
+| 1     | Critical | Low predictability and/or excessive pending work requiring attention         |
+
 ## Threshold rationale
-Threshold	Reasoning
-Predictability ≥ 88% and Pending Rate ≤ 20%	Indicates a healthy sprint with strong delivery alignment and limited unfinished work
-Predictability ≥ 75% and Pending Rate ≤ 32%	Indicates partial delivery control, but with visible risk
-Below those thresholds	Indicates delivery instability or planning/execution issues
+| Threshold                                   | Reasoning                                                                             |
+| ------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Predictability ≥ 88% and Pending Rate ≤ 20% | Indicates a healthy sprint with strong delivery alignment and limited unfinished work |
+| Predictability ≥ 75% and Pending Rate ≤ 32% | Indicates partial delivery control, but with visible risk                             |
+| Below those thresholds                      | Indicates delivery instability or planning/execution issues                           |
 
 This scoring model supports a more realistic Agile health view than velocity alone. It prevents the dashboard from treating a high-output sprint as healthy when unfinished work remains too high.
 
