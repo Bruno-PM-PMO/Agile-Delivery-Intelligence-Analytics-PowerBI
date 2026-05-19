@@ -72,6 +72,40 @@ Key visuals:
 
 <img width="1333" height="792" alt="image" src="https://github.com/user-attachments/assets/8dd5ea2b-500d-4c2f-a127-adef52cd9861" />
 
+## Sprint Health Scoring Logic
+
+The Sprint Health Score is the core business rule of the dashboard.
+
+It combines two dimensions:
+
+1. **Sprint Predictability** — how much committed work was actually completed.
+2. **Pending Task Rate** — how much work remained unfinished at the end of the sprint.
+
+The model is intentionally strict because a sprint should not be considered healthy only because it delivered many story points. A sprint can have high predictability but still carry operational risk if too much work remains pending.
+
+```DAX
+Sprint Health Score =
+VAR Predictability =
+    [Sprint Predictability %]
+
+VAR PendingRate =
+    [Pending Task Rate]
+
+RETURN
+SWITCH(
+    TRUE(),
+
+    Predictability >= 0.88 &&
+    PendingRate <= 0.20,
+    3,
+
+    Predictability >= 0.75 &&
+    PendingRate <= 0.32,
+    2,
+
+    1
+)```
+
 ---
 
 ### 2. Predictability vs Stability
